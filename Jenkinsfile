@@ -31,8 +31,8 @@ pipeline {
          // sh 'docker push cliveshand/numeric-app:""$GIT_COMMIT""'
 
 
-         sh 'docker build -t cliveshand/numeric-app:latest .'
-         sh 'docker push cliveshand/numeric-app:latest'
+         sh 'docker build -t cliveshand/numeric-app:v3 .'
+         sh 'docker push cliveshand/numeric-app:v3'
 
         }
       }
