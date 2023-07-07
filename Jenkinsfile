@@ -23,7 +23,7 @@ pipeline {
       }
     }
 
-    stage('Docker Build and Push') {
+    stage('Docker Build and Push cliveshand Repo') {
       steps {
         withDockerRegistry([credentialsId: "docker-hub", url: ""]) {
           sh 'printenv'
