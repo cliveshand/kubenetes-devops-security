@@ -28,7 +28,7 @@ pipeline {
       }
       post {
         always {
-          pitmutation mutationStatsFile: 'target/pit-reports/mutations.xml'
+          pitmutation mutationStatsFile: '/home/cliveshand/kubenetes-devops-security/target/pit-reports/mutations.xml'
         }
       }
     }
