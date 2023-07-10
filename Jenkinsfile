@@ -37,7 +37,7 @@ pipeline {
       steps {
         withSonarQubeEnv('SonarQube') {
        // sh "docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest"
-          sh "mvn sonar:sonar -Dsonar.projectKey=numeric-application -Dsonar.host.url=http//localhost:9000 -Dsonar.login=43c92cefa96a9f9e77b0816cd3d7716c9adcdd7ad4ca12f29125f399dea5a0c6"
+          sh "mvn sonar:sonar -Dsonar.projectKey=numeric-application -Dsonar.host.url=http//4.236.131.121:9000 -Dsonar.login=c93992c2886235134362cab43510657abfd50f6b5003361b9c6e35e292ed59e7"
         }
         timeout(time: 2, unit: 'MINUTES') {
           script {
