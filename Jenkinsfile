@@ -33,19 +33,19 @@ pipeline {
       }
     }
 
-    // stage('SonarQube - SAST') {
-    //   steps {
-    //     withSonarQubeEnv('SonarQube') {
+    stage('SonarQube - SAST') {
+      steps {
+        withSonarQubeEnv('SonarQube') {
        
-    //       sh "mvn clean verify sonar:sonar -Dsonar.projectKey=numeric-application -Dsonar.projectName='numeric-application' -Dsonar.host.url=http://4.236.131.121:9000 -Dsonar.token=sqp_e7cece29eeff461f667b939f90959a0bdaeb4fe2"
-    //     }
-    //     timeout(time: 10, unit: 'MINUTES') {
-    //       script {
-    //         waitForQualityGate abortPipeline: true
-    //       }
-    //     }
-    //   }
-    // }
+          sh "mvn clean verify sonar:sonar -Dsonar.projectKey=numeric-application -Dsonar.projectName='numeric-application' -Dsonar.host.url=http://3.231.151.133:9000 -Dsonar.token=sqp_433a1f1b84fa58330476597c54788545c9759f99"
+        }
+        timeout(time: 10, unit: 'MINUTES') {
+          script {
+            waitForQualityGate abortPipeline: true
+          }
+        }
+      }
+    }
 
     stage('Docker Build and Push') {
       steps {
