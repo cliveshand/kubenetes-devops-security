@@ -39,7 +39,7 @@ pipeline {
        
           sh "mvn clean verify sonar:sonar -Dsonar.projectKey=numeric-application -Dsonar.projectName='numeric-application' -Dsonar.host.url=http://4.236.131.121:9000 -Dsonar.token=sqp_fcbfb181679a3c6a26def982e2068b75af1ac651"
         }
-        timeout(time: 2, unit: 'MINUTES') {
+        timeout(time: 4, unit: 'MINUTES') {
           script {
             waitForQualityGate abortPipeline: true
           }

@@ -15,6 +15,8 @@ fileignoreconfig:
   checksum: 11040c0fedb2e98167d30c0ec89090c1070f2bbc105808e8142a58cee3f47a87
   checksum: dba5f2ffc6f82caefcf9cd4954bda0c45feb78336a71adad4a1f67f26f2fcb12
   checksum: 1a3d38bb072f18bfc5e97a99a2dcda14893f7a04c6f3c0012a59d11f7b8c71f5
+- filename: docker-compose.yaml
+  checksum: 6e7de4bbdf4b41ed3ee40889b5647feade6dec1e773a1d9a6426c32f842d9b84
 - filename: Jenkinsfile
-  checksum: 2b6b78e8068b21090852d582c32e83cbb41c34b8f40e7f5ddcc6f42d722871ef
+  checksum: f57baef24f5685188dc70d89a714c8fec1570904f6b5a05d1c32e79003909584
 version: ""
