@@ -16,7 +16,7 @@ spec:
         app: devsecops
     spec:
       containers:
-      - image: replace
+      - image: cliveshand/app
         name: devsecops-container
 ---
 apiVersion: v1
