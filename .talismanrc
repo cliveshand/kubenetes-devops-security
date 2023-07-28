@@ -1,16 +1,6 @@
 fileignoreconfig:
-- filename: target/surefire-reports/2023-07-28T14-09-01_035.dumpstream
-  checksum: cf0c36ff29412867ff0fbacae5d0ba9157a4432d9f76af33421641c2ec4dea5c
-- filename: target/surefire-reports/2023-07-28T15-09-36_797.dumpstream
-  checksum: 0176e4c6dca563e226a8c9570d1f27c11ca523dec9ab32f21dd01659be114b79
-- filename: target/site/jacoco/jacoco-sessions.html
-  checksum: 87cb6d7b4c363cfc54e57448933f3ddf35d1e6b911e1c0e6410e257cdf2e0ee3
 - filename: target/surefire-reports/TEST-com.devsecops.NumericApplicationTests.xml
-  checksum: 8793a4b7f3b48e689e9c87e5fc64c6364d2a02f102d526e34a42d2d0d5296706
+  checksum: e44f87239d23a5bdd4e891a28a4a952906368932025b08474a2745520d966442
 - filename: target/jacoco.exec
-  checksum: 0a9bea35b3cf3bd8d148f169a41d37e38ca4020427aacabd08df42af3480d5cb
-- filename: target/numeric-0.0.1.jar
-  checksum: eb3c65fc8714e9735701725d9712b60dc5c52f21cc34db5998b388ab274a2dd2
-- filename: Jenkinsfile
-  checksum: a2d924b5f784ea6b074e1304281904192112cdf6f581140b7d7f06366e4b23fd
+  checksum: 8e192591873634294d2dac1d09f4e81714bfe11c6f092f5bd986f34fae898617
 version: ""

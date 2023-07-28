@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.devsecops.NumericApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.264 s <<< FAILURE! - in com.devsecops.NumericApplicationTests
-welcomeMessage  Time elapsed: 0.361 s  <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.771 s <<< FAILURE! - in com.devsecops.NumericApplicationTests
+welcomeMessage  Time elapsed: 0.316 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<401>
 	at com.devsecops.NumericApplicationTests.welcomeMessage(NumericApplicationTests.java:51)
 
-smallerThanOrEqualToFiftyMessage  Time elapsed: 0.009 s  <<< FAILURE!
+smallerThanOrEqualToFiftyMessage  Time elapsed: 0.008 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<401>
 	at com.devsecops.NumericApplicationTests.smallerThanOrEqualToFiftyMessage(NumericApplicationTests.java:39)
 
-greaterThanFiftyMessage  Time elapsed: 0.007 s  <<< FAILURE!
+greaterThanFiftyMessage  Time elapsed: 0.014 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<401>
 	at com.devsecops.NumericApplicationTests.greaterThanFiftyMessage(NumericApplicationTests.java:45)
 
