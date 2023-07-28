@@ -12,7 +12,5 @@ fileignoreconfig:
 - filename: target/numeric-0.0.1.jar
   checksum: eb3c65fc8714e9735701725d9712b60dc5c52f21cc34db5998b388ab274a2dd2
 - filename: Jenkinsfile
-  checksum: e420fdaffd51a37946d8dc82ef4feddeb223b045dc478855ec3bbf2a7d3f34ab
-- filename: target/site/jacoco/jacoco-resources/prettify.js
-  checksum: 8c79f5dd7b2c11de21e46b17c0652b70418eb1d4da620fa081ef9884e3d240cd
+  checksum: a2d924b5f784ea6b074e1304281904192112cdf6f581140b7d7f06366e4b23fd
 version: ""
