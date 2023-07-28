@@ -1,6 +1,13 @@
 fileignoreconfig:
-- filename: target/surefire-reports/TEST-com.devsecops.NumericApplicationTests.xml
-  checksum: e44f87239d23a5bdd4e891a28a4a952906368932025b08474a2745520d966442
+- filename: target/surefire-reports/2023-07-28T15-40-34_830.dumpstream
+  checksum: 1b169ecbd756ebaba8203629c1228f2573186f6c23b5f23300f7057627a7edda
+- filename: target/surefire-reports/2023-07-28T15-41-21_467.dumpstream
+  checksum: ed862d47573de2aec842ce74b4e64fda120cf41d888636673aa172c986c2d3cd
+- filename: Jenkinsfile
+  checksum: 0950eb81cb014ea226f4aae2520e9553e2885657a22702cf4ddbd3192b6eafe9
 - filename: target/jacoco.exec
-  checksum: 8e192591873634294d2dac1d09f4e81714bfe11c6f092f5bd986f34fae898617
+  checksum: 3f133a80f8f6ba3929c5a22e36be6496d5d664672fdefec59380c7d7e75b4a86
+- filename: target/surefire-reports/TEST-com.devsecops.NumericApplicationTests.xml
+  checksum: a6df09493fbc121f11a839bd0c99f832e674dab7cd85849084245ab9cda08b12
 version: ""
+
