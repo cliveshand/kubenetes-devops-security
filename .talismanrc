@@ -8,6 +8,6 @@ fileignoreconfig:
 - filename: target/surefire-reports/TEST-com.devsecops.NumericApplicationTests.xml
   checksum: a6df09493fbc121f11a839bd0c99f832e674dab7cd85849084245ab9cda08b12
 - filename: Jenkinsfile
-  checksum: a2d924b5f784ea6b074e1304281904192112cdf6f581140b7d7f06366e4b23fd
+  checksum: 240ec4584096830d1491fca6a5f1f494a40dfe567133ecf6791b7db6906db740
 version: ""
 
