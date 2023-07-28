@@ -1,22 +1,18 @@
 fileignoreconfig:
-- filename: sec_files/password.txt
-  checksum: f1cfc4e74637c1399a305acaf7991724f54503ec159d4f6ad969cacdfb8e04c8
-  checksum: 8576f0be7610ab3875e3e8e2233c797d2deca98b1a696adda70a4b0f1dd5f5e2
-- filename: sec_files/file3
-  checksum: b058bbb84595454d550863a6ae7fd501863acd9692ec3cc699bc6f76dd0e38a5
-- filename: sec_files/file2
-  checksum: b39b1a7ab78830bc35571285a210d1d0b0aa2b213caf2fea02cee664c473b237
-- filename: Jenkinsfile.bad
-  checksum: 8cc446ebe067dace0f2dd6640923d64c17cdb968808775a515ee640eff3c33d3
-- filename: .vscode/settings.json
-  checksum: acdae7b810c60f0a5cb0bd8112a53735e3f6b8c4f562205bfad7acf23a54dff7
-- filename: docker-compose.yaml
-  checksum: 6e7de4bbdf4b41ed3ee40889b5647feade6dec1e773a1d9a6426c32f842d9b84
-  checksum: 6b2613c5cdd249ef60f4866d5a7d6fbfc79274c44f30a78a610c2d367c007cc9
-- filename: zap.sh
-  checksum: 74c570eb59f6f5ec56e02a333152aae2aff42f5879d6eb5b22e08340fb4ddb82
-- filename: Jenkinsfile.07282023
-  checksum: 6b2613c5cdd249ef60f4866d5a7d6fbfc79274c44f30a78a610c2d367c007cc9
+- filename: target/surefire-reports/2023-07-28T14-09-01_035.dumpstream
+  checksum: cf0c36ff29412867ff0fbacae5d0ba9157a4432d9f76af33421641c2ec4dea5c
+- filename: target/surefire-reports/2023-07-28T15-09-36_797.dumpstream
+  checksum: 0176e4c6dca563e226a8c9570d1f27c11ca523dec9ab32f21dd01659be114b79
+- filename: target/site/jacoco/jacoco-sessions.html
+  checksum: 87cb6d7b4c363cfc54e57448933f3ddf35d1e6b911e1c0e6410e257cdf2e0ee3
+- filename: target/surefire-reports/TEST-com.devsecops.NumericApplicationTests.xml
+  checksum: 8793a4b7f3b48e689e9c87e5fc64c6364d2a02f102d526e34a42d2d0d5296706
+- filename: target/jacoco.exec
+  checksum: 0a9bea35b3cf3bd8d148f169a41d37e38ca4020427aacabd08df42af3480d5cb
+- filename: target/numeric-0.0.1.jar
+  checksum: eb3c65fc8714e9735701725d9712b60dc5c52f21cc34db5998b388ab274a2dd2
 - filename: Jenkinsfile
-  checksum: 3303f5702fe8f4a6bc183bf739377c68607b35dace0817ea9ee49cfcb8d8ae22
+  checksum: e420fdaffd51a37946d8dc82ef4feddeb223b045dc478855ec3bbf2a7d3f34ab
+- filename: target/site/jacoco/jacoco-resources/prettify.js
+  checksum: 8c79f5dd7b2c11de21e46b17c0652b70418eb1d4da620fa081ef9884e3d240cd
 version: ""
